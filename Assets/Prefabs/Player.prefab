@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &293017594290011226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293017594290011225}
+  - component: {fileID: 293017594290011224}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &293017594290011225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293017594290011226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293017594290011224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293017594290011226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06aa714c2df741641b0530c308c7c6cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chessManPrefabs: {fileID: 7930273972249973831, guid: 35ff3d7930b2d1f4d8425c3a1ee1d6f0, type: 3}
+  whiteSprites:
+  - {fileID: 21300000, guid: 4e5d5430eb12d87438b00d6a1af9c0b5, type: 3}
+  - {fileID: 21300000, guid: 191acd0319b2ba2458b59b3de42b515d, type: 3}
+  - {fileID: 21300000, guid: 9cc2978e9017f184390e9e87c3a98fa3, type: 3}
+  - {fileID: 21300000, guid: be038191f3802e8468a7166540aa90f7, type: 3}
+  - {fileID: 21300000, guid: e709640e3bfe27243b3d812d9a316b48, type: 3}
+  - {fileID: 21300000, guid: 4e7dbd2870f966748a7554f8cc663c9d, type: 3}
+  blackSprites:
+  - {fileID: 21300000, guid: 1f8659ddc04ec094c8ff6f0e54e4ba73, type: 3}
+  - {fileID: 21300000, guid: 0366f0584387a294f85ba1800727687d, type: 3}
+  - {fileID: 21300000, guid: e426feaca2791804fa964240d8c34ee1, type: 3}
+  - {fileID: 21300000, guid: 22b10e9638028d147bc1a3f0342ef83c, type: 3}
+  - {fileID: 21300000, guid: b8feb1cbd0c7fce41b8f6e19bc69e5b9, type: 3}
+  - {fileID: 21300000, guid: 3e3815a3408572d48a6eacf57b53405c, type: 3}
